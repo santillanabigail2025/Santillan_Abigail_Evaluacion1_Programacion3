@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store - Carrito</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; margin: 0; background: #fafafa; color: #222; }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            background: #1f1f1f;
+            color: white;
+        }
+
+        header nav a, header button {
+            color: white;
+            background: #333;
+            border: 1px solid #555;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-left: 0.5rem;
+        }
+
+        main {
+            max-width: 700px;
+            margin: 1.5rem auto;
+            padding: 0 1.5rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 0.7rem;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+
+        th { background: #f2f2f2; }
+
+        td.cantidad-control {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        td.cantidad-control button {
+            width: 26px;
+            height: 26px;
+            border: 1px solid #ccc;
+            background: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn-eliminar {
+            background: #c0392b;
+            color: white;
+            border: none;
+            padding: 0.4rem 0.6rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #totalCarrito {
+            text-align: right;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+
+        #carritoVacio {
+            text-align: center;
+            color: #888;
+            padding: 3rem 1rem;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="font-size: 1.2rem; margin: 0;">🍔 Food Store</h1>
+        <nav>
+            <a href="../home/home.html">← Volver al catálogo</a>
+            <button id="logoutButton">Salir</button>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Mi carrito</h2>
+
+        <table id="tablaCarrito">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Subtotal</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="cuerpoTablaCarrito">
+                <!-- Filas armadas dinámicamente en cart.ts -->
+            </tbody>
+        </table>
+
+        <p id="carritoVacio">Tu carrito está vacío. ¡Volvé al catálogo y agregá algo rico!</p>
+
+        <p id="totalCarrito"></p>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="./cart.ts"></script>
+</body>
+
+</html>
