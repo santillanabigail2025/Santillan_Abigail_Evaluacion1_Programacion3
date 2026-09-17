@@ -15,6 +15,10 @@ Esta base también conserva, sin modificaciones, el mecanismo de protección de 
 
 ---
 
+#**Enlances**
+- **Video de presentación**: https://www.youtube.com/watch?v=RepKPBNhNWw
+- **Repositorio en GitHub**: PENDIENTE — pegar acá el link del repo
+
 ##Importante! Nivel de Seguridad
 
 La protección de rutas implementada en este proyecto **NO ES SEGURA** y no debe utilizarse en un entorno de producción.
