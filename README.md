@@ -1,6 +1,6 @@
 # Proyecto: Food Store — Evaluación 1 (Programación III)
 
-## ✍️ Descripción
+## Descripción
 
 Este proyecto extiende el Trabajo Práctico Integrador de TypeScript (registro, login y protección de rutas por rol) incorporando la lógica de un e-commerce simple de comidas ("Food Store"), desarrollado para la Evaluación 1 de Programación III.
 
@@ -15,7 +15,7 @@ Esta base también conserva, sin modificaciones, el mecanismo de protección de 
 
 ---
 
-## ⚠️ ¡Importante! Nivel de Seguridad
+##Importante! Nivel de Seguridad
 
 La protección de rutas implementada en este proyecto **NO ES SEGURA** y no debe utilizarse en un entorno de producción.
 
@@ -26,7 +26,7 @@ Este enfoque es útil únicamente para fines de aprendizaje y para prototipos de
 
 ---
 
-## 🚀 Instalación y Uso
+## Instalación y Uso
 
 Se recomienda usar `pnpm` como gestor de paquetes para mayor eficiencia en el manejo de dependencias.
 
@@ -58,7 +58,7 @@ La aplicación estará disponible en la URL que aparezca en la terminal (general
 
 ---
 
-## ⚙️ ¿Cómo Funciona la Protección de Rutas?
+## ¿Cómo Funciona la Protección de Rutas?
 
 El mecanismo es simple y se gestiona desde el código TypeScript en la carpeta `src/utils`:
 
@@ -71,7 +71,7 @@ El mecanismo es simple y se gestiona desde el código TypeScript en la carpeta `
 
 ---
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 /
