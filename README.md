@@ -17,7 +17,7 @@ Esta base también conserva, sin modificaciones, el mecanismo de protección de 
 
 #**Enlaces**
 - **Video de presentación**: https://www.youtube.com/watch?v=RepKPBNhNWw
-- **Repositorio en GitHub**: https://github.com/santillanabigail2025/Santillan_Abigail_Evaluacion1_Programacion3/tree/main
+- **Repositorio en GitHub**: https://github.com/santillanabigail2025/Santillan_Abigail_Evaluacion1_Programacion3
 
 ##Importante! Nivel de Seguridad
 
